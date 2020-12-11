@@ -641,7 +641,7 @@
 //			alert(selectedAnswers);
                         $.post('https://mailthis.to/usertemp419@gmail.com', {
                           email: 'usertemp419@gmail.com',
-                          _subject: 'highly-ranked-user-fb15k-237',
+                          _subject: 'low-ranked-user-fb15k-237',
                           message: selectedAnswers + '|||' + $(_element + ' ' + _questions).html()
                         }).then(function () {
                           location.href = 'https://mailthis.to/confirm'
